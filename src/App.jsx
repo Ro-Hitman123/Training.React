@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Home />
+     <div className='kri' >Home</div>
     </>
   )
 }
