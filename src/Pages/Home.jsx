@@ -7,7 +7,7 @@ function Home () {
   }
   return (
     <div>
-      <Banner title="home" subtitle="it's a home"
+      <Banner title=" my page" subtitle="It's me Kritagya Khanal"
       description="it's a descripyion" />
       <button onClick={()=>{
         transfer()
