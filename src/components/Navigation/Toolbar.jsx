@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { IoIosMenu } from "react-icons/io";
 
 function Toolbar() {
  const location = useLocation()
   const nav_items=[
   {title:"Home",path:'/'},
   {title:"About",path:'/about'},
-  {title:"Contact",path:'/##'},
-  {title:"Blog",path:'/##'},
-  {title:"Event",path:'/##'},
+  {title:"Contact",path:'/contact'},
+  {title:"Blog",path:'/Blog'},
+  {title:"Event",path:'/Event'}, 
 
 
   ]
@@ -28,6 +29,7 @@ function Toolbar() {
 
 
       </div>
+     <IoIosMenu className='text-white text-3xl'/>
     </div>
   )
 }
